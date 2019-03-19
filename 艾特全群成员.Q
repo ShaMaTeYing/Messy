@@ -1,28 +1,3 @@
-[General]
-SyntaxVersion=2
-BeginHotkey=121
-BeginHotkeyMod=0
-PauseHotkey=0
-PauseHotkeyMod=0
-StopHotkey=123
-StopHotkeyMod=0
-RunOnce=1
-EnableWindow=
-MacroID=d52cc0e7-0d3b-4a03-a058-c6dc33ecfe44
-Description=我的脚本1
-Enable=1
-AutoRun=0
-[Repeat]
-Type=0
-Number=1
-[SetupUI]
-Type=2
-QUI=
-[Relative]
-SetupOCXFile=
-[Comment]
-
-[Script]
 delay_time = 10			'设置按完按键的缓冲时间
 MoveTo 507, 941			'将鼠标移动到聊天窗口
 Delay delay_time		'延时
@@ -52,41 +27,9 @@ While i <= group_number	'开始循环
 	KeyUp "Enter", 1	'模拟松开回车键
 	i = i + 1			'循环变量自增
 Wend					'循环结束标志
-Delay delay_time'延时
-'以下是打字打出三差一
-KeyDown "S", 1
-Delay delay_time
-KeyUp "S", 1
-Delay delay_time
-KeyDown "A", 1
-Delay delay_time
-KeyUp "A", 1
-Delay delay_time
-KeyDown "N", 1
-Delay delay_time
-KeyUp "N", 1
-Delay delay_time
-KeyDown "C", 1
-Delay delay_time
-KeyUp "C", 1
-Delay delay_time
-KeyDown "H", 1
-Delay delay_time
-KeyUp "H", 1
-KeyDown "A", 1
-KeyDown "Y", 1
-Delay delay_time
-KeyUp "A", 1
-KeyUp "Y", 1
-Delay delay_time
-KeyDown "I", 1
-Delay delay_time
-KeyUp "I", 1
-Delay delay_time
-KeyDown "Space", 1
-Delay delay_time
-KeyUp "Space", 1
-Delay delay_time
+Delay delay_time		'延时
+SayString "三差一"		'打字打出三差一
+Delay delay_time		'延时
 KeyDown "Enter", 1
-Delay delay_time
+Delay 169
 KeyUp "Enter", 1
