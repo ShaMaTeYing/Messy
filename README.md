@@ -11,3 +11,8 @@
 > Your Encryption Method:  aes-256-cfb
 
 ---
+#	艾特全群成员
+> 艾特全群成员这个程序的源代码在"艾特全群成员.Q"中
+> 要运行这个程序，需要先安装按键精灵这个软件，链接：https://pan.baidu.com/s/1rJXEtmkEp_oUr5SMkIiqtg 
+提取码：a89p 
+> 28个成员艾特完，实测只需要40秒.
